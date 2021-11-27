@@ -5,7 +5,7 @@ class Sling {
     this.width = width;
     this.height = height;
     this.angle = angle;
-    this.image=loadImage("assets/Sl2.png") ; 
+    this.image=loadImage("assets/sling.png") ; 
   }
   display() {
     if (keyIsDown(RIGHT_ARROW) && this.angle < 0.35) {
